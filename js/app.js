@@ -180,5 +180,7 @@ const addDailyEarnings = () => {
 function youWin () {
     if (tools.starvingStudents.owned == true && moneyEarned >= 1000) {
         alert('You\'ve managed to hire a team of Starving Students and bank a total of $1000...Congratulations, you have won the game!!')
+        alert('Time to play again!!')
+        start()
     } 
 }
